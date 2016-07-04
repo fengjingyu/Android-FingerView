@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.xiaocoder.fingerview.XCFingerView
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:background="@color/colorAccent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="可在整个屏幕范围内移动"
+            android:textSize="17sp" />
+
+    </com.xiaocoder.fingerview.XCFingerView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@color/colorPrimary">
+
+        <com.xiaocoder.fingerview.XCFingerView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@android:color/holo_orange_dark">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="可在蓝色区域内移动"
+                android:textSize="17sp" />
+
+        </com.xiaocoder.fingerview.XCFingerView>
+    </RelativeLayout>
+
+
+</RelativeLayout>
